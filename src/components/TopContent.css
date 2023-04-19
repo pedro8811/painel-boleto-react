@@ -1,0 +1,27 @@
+.content{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.title h1{
+  font-size: 17px;
+  color: var(--primary-text);
+  font-weight: 700;
+  margin: 0;
+}
+.subtitle, .subtitle p{
+  display: flex;
+  font-size: 13px;
+  margin: 0;
+  color: var(--secondary-text);
+}
+.subtitle p{
+  color: var(--primary-text);
+}
+.title p{
+  margin: 0;
+}
+.titleRight{
+  display: flex;
+  flex-direction: column;
+}

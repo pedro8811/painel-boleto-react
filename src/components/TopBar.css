@@ -1,0 +1,27 @@
+.topBar{
+  display: flex;
+  background: var(--primary-color);
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+.topBar h1{
+  margin-left: 130px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.quitButton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 130px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.quitButton p{
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
